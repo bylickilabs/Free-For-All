@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'RP';
+    src: url(fonts/static/Sora-Regular.ttf);
+}
+@font-face {
+    font-family: 'PR';
+    src: url(fonts/static/Sora-ExtraBold.ttf);
+}
+
+main{
+    position: absolute;
+    border: 2px solid rgba(0, 0, 0, 0.685);
+    height: 500px;
+    width: 800px;
+    background-color: rgba(65, 65, 65, 0.89);
+    border-radius: 10px;
+
+    margin-left: 550px;
+    margin-top: 30ch;
+}
+
+#title{
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 2.3ch;
+    font-family: 'RP';
+    font-size: 40px;
+    border-bottom: 2px solid black;
+}
+
+#titleimg{
+    position: absolute;
+    margin-left: 370px;
+}
+
+#ffaimg{
+    position: absolute;
+    margin-top: 20ch;
+    margin-left: 100px;
+}
+
+#ffatext{
+    position: absolute;
+    font-family: 'PR';
+    margin-top: 22ch;
+    margin-left: 120px;
+}
+#ffaimg:hover{
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
+    70%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+#ffatext2{
+    position: absolute;
+    font-family: 'PR';
+    margin-top: 22ch;
+    margin-left: 360px;
+}
+#ffaimg2{
+    position: absolute;
+    margin-top: 20ch;
+    margin-left: 340px;
+}
+#ffaimg2:hover{
+    animation: pulse 1s infinite;
+}
+
+#ffaimg3{
+    position: absolute;
+    margin-top: 20ch;
+    margin-left: 600px;
+}
+#ffatext3{
+    position: absolute;
+    font-family: 'PR';
+    margin-top: 22ch;
+    margin-left: 620px;
+}
+#ffaimg3:hover{
+    animation: pulse 1s infinite;
+}
+
+#strich{
+    position: absolute;
+    border: 2px solid black;
+    width: 798px;
+    margin-top: 45ch;
+}
