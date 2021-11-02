@@ -4,6 +4,7 @@ mp.events.add('ffaBrowser', () =>{
     if(!ffaBrowser){
         ffaBrowser = mp.browsers.new('package://FFA/index.html')
         mp.gui.cursor.show(true,true)
+        mp.discord.update("On FFA menu");
     }
 });
 
